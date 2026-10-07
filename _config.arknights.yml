@@ -158,18 +158,19 @@ utterances:
 # Giscus
 # 详见: https://giscus.app
 giscus:
-  enable: false
-  repo: # Github 仓库所有者和名称，例如: octocat/Hello-World
-  repo_id: # 仓库 ID，可在 giscus 页面获取
-  category: # discussion 分类名称
-  category_id: # 分类 ID，可在 giscus 页面获取
-  mapping: pathname # 页面 ↔️ discussion 映射关系，可选值: pathname | url | title | og:title | specific | number
-  term: # 当 mapping 为 specific 时使用，指定的字符串
-  discussion_number: # 当 mapping 为 number 时使用，指定的 discussion 号码
-  strict: 0 # 是否启用严格标题匹配 0 | 1
-  reactions_enabled: 1 # 是否启用主帖子上的反应 0 | 1
-  emit_metadata: 0 # 是否输出 discussion 的元数据 0 | 1
-  input_position: bottom # 评论输入框位置，可选值: top | bottom
+  enable: true
+  repo: A1iceqwq/A1iceqwq.github.io
+  repo_id: 粘贴网页上获取的data-repo-id
+  category: Announcements
+  category_id: 粘贴网页上获取的data-category-id
+  mapping: pathname
+  strict: 0
+  reactions_enabled: 1
+  emit_metadata: 0
+  input_position: bottom
+  theme: preferred_color_scheme
+  lang: zh-CN
+  loading: lazy
   
   # 主题配置 - 三种配置方式任选其一：
   # 方式一：使用单一主题（固定主题，不随网站主题切换）
