@@ -1,0 +1,20 @@
+/* 强制背景透明 */
+.gsc-comments, .gsc-comment-box, .gsc-comment, .gsc-reply {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+/* 强制字体和边框为蓝色 */
+main {
+    --color-canvas-default: transparent !important;
+    --color-canvas-subtle: transparent !important;
+    --color-fg-default: #4DA3FF !important;
+    --color-fg-muted: #4DA3FF !important;
+    --color-btn-text: #4DA3FF !important;
+    --color-btn-border: #4DA3FF !important;
+}
+/* 输入框背景透明 */
+.gsc-comment-box-textarea {
+    background-color: transparent !important;
+    border: 1px solid #4DA3FF !important;
+    color: #4DA3FF !important;
+}
