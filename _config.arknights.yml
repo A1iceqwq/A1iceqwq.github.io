@@ -168,7 +168,8 @@ giscus:
   reactions_enabled: 1
   emit_metadata: 0
   input_position: bottom
-  theme: dark
+  theme light: light
+  theme dark: dark dimmed
   
   # 主题配置 - 三种配置方式任选其一：
   # 方式一：使用单一主题（固定主题，不随网站主题切换）
